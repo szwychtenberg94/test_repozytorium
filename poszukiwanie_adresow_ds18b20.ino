@@ -23,6 +23,7 @@ void getDeviceAddress(void) {
       if (addr[i] < 16) {
         Serial.print('0');
       }
+	  //dodatkowy komentarz
       // print each byte in the address array in hex format
       Serial.print(addr[i], HEX);
       if (i < 7) {

@@ -6,7 +6,7 @@ void setup(void) {
   Serial.begin(9600);
   getDeviceAddress();
 }
-//test
+//test 2
 void getDeviceAddress(void) {
   byte i;
   byte addr[8];
